@@ -1,7 +1,7 @@
 server {
  listen 8080 default;
- server_name popipe 50.116.109.106; # like ServerName in Apache
- root /home/popipe/public_html/; # document root, path to directory with files
+ server_name ip xx.xxx.xx.xx; # like ServerName in Apache
+ root /home/server/public_html/; # document root, path to directory with files
  index index.html index.php;
  autoindex off; # we don’t want users to see files in directories
 
